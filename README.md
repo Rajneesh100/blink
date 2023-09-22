@@ -1,13 +1,8 @@
 <p align="center"><a href = "https://team-meet.netlify.app/"> <img src="https://team-meet.netlify.app/static/media/Logo.19626df0.svg" alt="Logo" width="200" ></a></p>
 
-## Brief
-
-<a href="https://team-meet.netlify.app/">Team meeT</a> is a Microsoft Teams clone webapp that allows users to have video calls and group chats. This project was created as a part of Microsoft Engage Mentorship 2021. 
-### Project Deployment 
-This project is deployed on <a href="https://team-meet.netlify.app/">https://team-meet.netlify.app/</a>
 
 ### Project Documentation
-Details on the project design, components and agile sprints can be found <a href="https://drive.google.com/file/d/13q8OEGOZdKAyCCXZ1rwMP9NCEYepUPC7/view?usp=sharing">here</a>
+Details on the project design, components and agile sprints can be found <a href="https://drive.google.com/file/d/1JbgpAhh-zkI1aohQJ-bIg9FKZS5mEYNm/view?usp=sharing">here</a>
 
 ## Features
 
