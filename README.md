@@ -25,19 +25,11 @@ Details on the project design, components and agile sprints can be found <a href
 5. Firebase
 
 ## Agile Methodology
+- desiging the website and enlisting possible features to include. Research was done on the available options.
+- Simple prototypes were made using OpenVidu, WebRTC and Jitsi Meet. Jitsi Meet external API was chosen due to easy integration and ability to handle large number of participants with lesser load on browser.
+- extending the Jitsi Meet prototype to include other features. Chat Engine was integrated into the app, Firebase was used for authentication and storage and UI of the app was improved. A new feature call **Polls** was added into the video call component. This feature allows admins to post a poll question and download a CSV file with the participants' answers.
+- incorporating the chat feature into the video call component. Previously, Jitsi Meet chat was used during video calls. This was changed to the group chat to allow users to continue group conversations. A new feature called **Meeting Notes** was incorporated. This feature allows all participants to take down notes during a meeting using a rich text-editor.
 
-To uphold the "Be Agile" spirit of Engage 2021, this project was build in a series of agile sprints:
-
-- The first week was spent on desiging the website and enlisting possible features to include. Research was done on the available options. Throughout the first and second sprints, time was devoted to learning ReactJS.
-- Simple prototypes were made using OpenVidu, WebRTC and Jitsi Meet. Jitsi Meet external API was chosen due to easy integration and ability to handle large number of participants with lesser load on browser. A **Kanban style project board** was created on GitHub for the repository. The project board kept track of **Todo, In Progress and Completed** tasks during the sprints.
-- The third week was spent on extending the Jitsi Meet prototype to include other features. Chat Engine was integrated into the app, Firebase was used for authentication and storage and UI of the app was improved. A new feature call **Polls** was added into the video call component. This feature allows admins to post a poll question and download a CSV file with the participants' answers.
-- The fourth week involved incorporating the chat feature into the video call component. Previously, Jitsi Meet chat was used during video calls. This was changed to the group chat to allow users to continue group conversations. A new feature called **Meeting Notes** was incorporated. This feature allows all participants to take down notes during a meeting using a rich text-editor.
-
-### CI/CD
-
-**Continuous Integration** was done using GitHub actions. A NodeJS CI workflow was set up to ensure all pull requests build correctly. Furthermore, 5 additional checks were done by the Netlify bot to ensure that new code deploys correctly.
-
-**Continuous Deployment** was ensured by setting the main branch of the repository as a the production branch on Netlify. All changes during the sprints were first pushed into the development branch and then merged into the main branch after they pass the CI tests. To ensure that code wasn't inadvertently pushed into the main branch, security rules were laid out on GitHub preventing a direct push.
 
 ## Screenshots
 ![Login and Chat Dashboard](https://user-images.githubusercontent.com/75874394/125432582-818e433c-3f5c-446f-b730-a4ae6f68f748.gif)
